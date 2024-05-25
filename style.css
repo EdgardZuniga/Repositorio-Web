@@ -1,0 +1,41 @@
+:root{
+    --primero: #127369;
+    --segundo: #10403B;
+    --tercero: #8AA6A3;
+    --cuarto: #4C5958;
+    --quinto: #BFBFBF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+/* Posicion de los contenedores. */
+.Inicio{
+    height: 100vh;
+    width: 100%;
+    grid-column: 1/13;
+    grid-row: 1;
+    border: 1px solid #fff;
+}
+.Principal{
+    height: 400px;
+    grid-column: 1/13;
+    border: 1px solid #fff;
+    background: var(--segundo);
+    grid-row: 2;
+}
+.Pie-Pagina{
+    height: 400px;
+    grid-column: 1/13;
+    background: var(--tercero);
+
+    grid-row: 3;
+    border: 1px solid #fff;
+}
