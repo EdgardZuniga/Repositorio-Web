@@ -3,60 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
     <title>Portafolio | Edgard Zuniga</title>
-    <!-- Estilos generales -->
     <link rel="stylesheet" href="style.css">
-    <!-- Estilos separados por su responsive -->
-    <link rel="stylesheet" href="Styles/Layout/mobile.css">
-    <link rel="stylesheet" href="Styles/Layout/tablet.css">
-    <link rel="stylesheet" href="Styles/Layout/desktop.css">
-    <link rel="stylesheet" href="Styles/Layout/desktop-large.css">
-    <!-- Icono de la pagina -->
-    <link rel="icon" href="">
 </head>
 <body>
-    <header class="Inicio">
-        <section class="Menu">
-            
-            <nav></nav>
-        </section>
-
-        <section class="Presentacion">
-            <h1></h1>
-
-            <p>¡Hola! Soy Edgard. Nunca he fallado un Captcha... 🤔 bueno, casi nunca.</p>
-            <p>Soy Desarrollador Front-End, me gusta este ámbito. De alguna manera, el hecho de saber lo que se puede construir a partir de la programación simplemente... me sorprende. Por eso mismo he incursionado en este mundo de la programación para aprender más cosas, crear cosas que antes solo me parecían imposibles de realizar, y ahora... hacerlas realidad.</p>
-            <p>Espero te la pases bien, este es mi Portafolio... Mi Mundo.</p>
-
+    <header class="header">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#project-section">Proyectos</a></li>
+                <li><a href="#">Tecnologias</a></li>
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Certificados</a></li>
+                <li><a href="#">Sobre Mi</a></li>
+            </ul>
+        </nav>
+        <section class="start">
+            <section class="start__img">
+                <img src="Resources/Img/Img Edgard.webp" alt="Imagen de Edgard Zuniga">
+            </section>
+            <section class="start__content">
+                <h2>¡Hola! ¿ Cómo Estás ?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, ab! Modi rem labore tempore, quasi sunt et mollitia voluptas commodi! Doloribus ut laborum labore ea maxime natus voluptatum aliquid deserunt.</p>
+            </section>
+            <section class="start__buttons">
+                <section class="social-networks">
+                    <button class="github-button">
+                        GitHub
+                    </button>
+                    <button class="linkedin-button">
+                        Linkedin
+                    </button>
+                </section>
+                <section class="download-CV">
+                    <button>
+                        Descargar CV
+                    </button>
+                </section>
+            </section>
         </section>
     </header>
-
-    <main class="Principal">
-        <section>
+    <main>
+        <section id="project-section" class="projects">
             <h2>Proyectos</h2>
-        </section>
 
-        <section>
-            <h2>Tecnologias</h2>
-        </section>
-
-        <section>
-            <h2>Curriculum</h2>
-        </section>
-
-        <section>
-            <h2>Educacion</h2>
+            <section class="project-cards">
+                
+            </section>
         </section>
     </main>
-
-    <footer class="Pie-Pagina">
-        <ul class="Social-Network">
-            <li><a href=""><img src="" alt="">Red Social</a></li>
-            <li><a href=""><img src="" alt="">Red Social</a></li>
-            <li><a href=""><img src="" alt="">Red Social</a></li>
-            <li><a href=""><img src="" alt="">Red Social</a></li>
-            <li><a href=""><img src="" alt="">Red Social</a></li>
-        </ul>
-    </footer>
 </body>
 </html>
