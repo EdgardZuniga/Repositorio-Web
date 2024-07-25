@@ -160,3 +160,35 @@ main{
         }
     }
 }
+.technologies{
+    grid-column: 2/12;
+
+    & > h2{
+        padding: 80px 0 60px 0;
+    }
+    
+    & .technologies-cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        align-content: center;
+        row-gap: 50px;
+
+        & .techno-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & img{
+                height: 100px;
+                width: 100px;
+            }
+
+            & span{
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: 10px 0;
+            }
+        }
+    }
+}
