@@ -192,3 +192,36 @@ main{
         }
     }
 }
+.curriculum-container{
+    grid-column: 2/12;
+
+    & h2{
+        padding: 100px 0 60px 0;
+    }
+
+    & .curriculum-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        & .curriculum-image{
+            & img{
+                width: 520px;
+                height: 600px;
+                border-radius: 10px;
+            }
+        }
+
+        & .curriculum-button{
+            margin-top: 40px;
+
+            & button{
+                padding: 10px 20px;
+                background: #fff;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+    }
+}
